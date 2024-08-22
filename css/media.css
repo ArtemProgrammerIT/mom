@@ -1,0 +1,109 @@
+
+@media (max-width: 1020px) {
+    .body-image {
+        height: 600px;
+    }
+    .card-image {
+        width: 100px;
+    }
+}
+
+@media (max-width: 780px) {
+    .body-image {
+        height: 400px;
+    }
+    .card-image {
+        display: none;
+    }
+
+    .card {
+        font-size: 20px;
+    }
+
+    .card-bg {
+        width: 400px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .body-image {
+        height: 350px;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .body-text {
+        width: 300px;
+    }
+
+    .card {
+        font-size: 20px;
+    }
+
+    .card-bg {
+        width: 400px;
+        margin-left: 40px;
+    }
+
+    .link-block {
+        display: inline-block;
+    }
+
+    .link-block-line {
+        display: block;
+    }
+}
+
+@media (max-width: 460px) {
+    .body-image {
+        display: none;
+    }
+
+    .experience {
+        margin-top: 400px;
+    }
+
+    .body-text {
+        margin-left: 5px;
+        width: 380px;
+    }
+
+    .vk-item {
+        display: block;
+        margin: 0;
+    }
+    .phone-item {
+        display: block;
+        margin: 0;
+    }
+    .email-item  {
+        display: block;
+        margin: 0;
+    }
+
+    .contacts {
+        height: 100px;
+    }
+
+    .body-title {
+        font-size: 18px;
+    }
+
+    .body-text {
+        margin: 2px;
+        padding: 15px;
+    }
+
+    .card {
+        font-size: 20px;
+    }
+
+    .card-bg {
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 250px;
+    }
+}

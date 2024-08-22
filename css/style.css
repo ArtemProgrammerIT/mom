@@ -1,0 +1,247 @@
+
+body {
+    background-color: #ebebeb;
+    padding: none;
+}
+
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.link-block {
+    border-radius: 10px;
+    background-color: #fedf92;
+    width: 50px;
+    height: 50px;
+    border: none;
+    vertical-align: middle;
+    display: none;
+}
+
+.link-block-line {
+    display: none;
+}
+
+.link-block-line:nth-child(1) {
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 25px;
+    transform: translate(10px, -5px);
+}
+
+.link-block-line:nth-child(2) {
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 25px;
+    transform: translate(10px);
+}
+
+
+.link-block-line:nth-child(3) {
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 25px;
+    transform: translate(10px, 5px);
+}
+
+
+
+
+.contact-item {
+    display: inline-block;
+    color: #fff;
+}
+
+.contacts {
+    bottom: 0px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+}
+
+
+/*-------------------------*/
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+h1, h2, h3, p, b, s, i {
+    cursor: default;
+}
+
+/*-------------------------*/
+
+
+.vk-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+.phone-item {
+    display: inline-block;
+}
+.email-item  {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.card {
+    display: inline;
+    font-size: 26px;
+}
+
+.card-bg {
+    background-color: #fff;
+    border-top-right-radius: 45px;
+    max-width: 1190px;
+    padding: 0%;
+    margin-right: 20px;
+    border-top-right-radius: 45px;
+    margin: 150px;
+}
+
+.textarea {
+    width: 400px;
+    height: 300px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+    outline: #fff;
+}
+
+.feedback {
+    margin-bottom: 400px;
+}
+
+.label {
+    margin-bottom: 10px;
+    font-family: Courier;
+}
+
+.feedback-btn {
+    width: 380px;
+    height: 60px;
+    font-size: 19px;
+    font-family: monospace;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.2s ease-out;
+}
+
+@keyframes animation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.9);
+    }
+}
+
+.feedback-btn:hover {
+    background-color: tan;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.feedback-btn:focus {
+    animation: animation 0.2s alternate ease-out 2;
+}
+
+.card-text {
+    margin: 20px;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 20px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Verdana;
+    margin: 20px;
+}
+
+.card-image{
+    margin: 20px 20px 0px 20px;
+    display: inline;
+    float: left;
+    border-radius: 15px;
+}
+
+.header {
+    font-family: sans-serif;
+    background-color: #fff;
+    padding: 20px 20px 10px 20px; 
+    overflow: hidden; 
+    text-align: center; /* центрируем текст внутри header */
+    line-height: 70px; /* устанавливаем высоту строки равной высоте header */
+}
+
+.body-image {
+    width: 100%;
+    height: 900px;
+}
+
+.body-img {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.body-title {
+    margin-bottom: 30px;
+}
+
+.body-text {
+    font-family: monospace;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #ffffff92;
+    padding: 5px;
+    min-height: 100px;
+}
+
+.header-btn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Courier;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.header-btn:hover {
+    background-color: #ab9273;
+    color: white;
+    transition: 0.4s;
+}
+
+.header-items {
+    float: right; 
+    vertical-align: middle;
+}
+  
+.title {
+    font-size: 30px;
+    float: left; 
+    vertical-align: middle;
+}
